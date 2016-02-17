@@ -85,12 +85,12 @@ class NetworkMonitor:
       monitorScrollbarXInbound = Scrollbar(monitorFrameInboundText, orient=HORIZONTAL)
       monitorScrollbarYInbound = Scrollbar(monitorFrameInboundText)
       monitorLabelInbound = Label(monitorFrameInboundLabel,text="INBOUND")
-      self.monitorTextInbound = Text(monitorFrameInboundText,wrap=NONE,xscrollcommand=monitorScrollbarXInbound.set,yscrollcommand=monitorScrollbarYInbound.set,state=DISABLED)
+      self.monitorTextInbound = Text(monitorFrameInboundText,width=100,height=10,wrap=NONE,xscrollcommand=monitorScrollbarXInbound.set,yscrollcommand=monitorScrollbarYInbound.set,state=DISABLED)
 
       monitorScrollbarXOutbound = Scrollbar(monitorFrameOutboundText, orient=HORIZONTAL)
       monitorScrollbarYOutbound = Scrollbar(monitorFrameOutboundText)
       monitorLabelOutbound = Label(monitorFrameOutboundLabel,text="OUTBOUND")
-      self.monitorTextOutbound = Text(monitorFrameOutboundText,wrap=NONE,xscrollcommand=monitorScrollbarXOutbound.set,yscrollcommand=monitorScrollbarYOutbound.set,state=DISABLED)
+      self.monitorTextOutbound = Text(monitorFrameOutboundText,width=100,height=10,wrap=NONE,xscrollcommand=monitorScrollbarXOutbound.set,yscrollcommand=monitorScrollbarYOutbound.set,state=DISABLED)
 
       monitorFrameInbound.pack()
       monitorFrameInboundLabel.pack()
