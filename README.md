@@ -3,7 +3,7 @@
 netMon is a tool developed in Python 2.7 that monitors the IPv4 addresses and ports that your Windows machine is connecting to.
 
 ####Demo
-![netMon demo](https://github.com/CSSDePaul/blob/master/img/demo.gif)
+![netMon demo](https://github.com/CSSDePaul/NetMon/blob/master/img/demo.gif)
 
 ####Explanation
 
